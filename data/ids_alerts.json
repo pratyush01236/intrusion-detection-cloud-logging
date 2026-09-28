@@ -1,0 +1,21 @@
+[
+    {
+        "rule": "REPEATED_FAILED_LOGIN",
+        "severity": "HIGH",
+        "user": "demo-user",
+        "message": "3 failed login attempts detected"
+    },
+    {
+        "rule": "RESTRICTED_RESOURCE_ACCESS",
+        "severity": "MEDIUM",
+        "user": "demo-user",
+        "resource": "/restricted/test",
+        "message": "Access to a restricted test resource detected"
+    },
+    {
+        "rule": "SUSPICIOUS_TEST_SIGNATURE",
+        "severity": "MEDIUM",
+        "user": "demo-user",
+        "message": "Authorized synthetic suspicious signature detected"
+    }
+]
