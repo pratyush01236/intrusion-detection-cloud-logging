@@ -1,0 +1,7 @@
+[
+  {"event_type": "login_failed", "user": "demo-user", "source_ip": "192.0.2.10"},
+  {"event_type": "login_failed", "user": "demo-user", "source_ip": "192.0.2.10"},
+  {"event_type": "login_failed", "user": "demo-user", "source_ip": "192.0.2.10"},
+  {"event_type": "resource_access", "user": "demo-user", "resource": "/restricted/test"},
+  {"event_type": "application_event", "user": "demo-user", "test_signature": "SUSPICIOUS_DEMO_SIGNATURE"}
+]
